@@ -4,14 +4,7 @@ function dieRoll(){
 }
 
 var bee = document.getElementById("dice-box");
-box.onclick = function(){
-    if (box.src.includes("open") ){
-        box.src = "img/the_die.jpg";
-        document.getElementById("").innerHTML = "";
-    }
-    else {
-        box.src = "img/the_die.jpg";
-        var elem = document.getElementById("");
-        elem.innerHTML = "";
-    }
+bee.onclick = function(){
+    console.log(dieRoll());
+    document.getElementById("roll-box").innerHTML = dieRoll();
 };
