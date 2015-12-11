@@ -6,5 +6,5 @@ function dieRoll(){
 var bee = document.getElementById("dice-box");
 bee.onclick = function(){
     console.log(dieRoll());
-    document.getElementById("roll-box").innerHTML = dieRoll();
+    document.getElementById("roll-box").innerHTML=dieRoll();
 };
